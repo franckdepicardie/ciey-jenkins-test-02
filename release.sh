@@ -4,8 +4,9 @@ jar -xvf jenkins.war
 echo "PART II"
 ls -la
 echo "PART III"
-cp -rf ./eyspecial/. .jenkins/
+echo "-->copying jobs..."
+cp -rf ./eyspecial/jobs/. .jenkins/jobs/.
 echo "PART IV"
-ls -la .jenkins/
+ls -la .jenkins/jobs/
 echo "PART V"
 echo "!!!!!!!!!!!!!!!!!!!!! Finished release.sh"
