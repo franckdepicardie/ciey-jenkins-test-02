@@ -1,1 +1,1 @@
-chmod -R 775 /app/
+chmod -R 777 /
