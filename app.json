@@ -1,0 +1,6 @@
+{
+  "name": "jenkins CIEY",
+  "scripts": {
+    "postdeploy": "./release.sh"
+  }
+}
