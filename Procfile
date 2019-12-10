@@ -1,3 +1,2 @@
 # Only listen on http; disable ajp and https
-release: ./release.sh
-web: java -jar -Djenkins.install.runSetupWizard=false jenkins.war --httpPort=$PORT --ajp13Port=-1 --httpsPort=-1
+web: ./release.sh && java -jar -Djenkins.install.runSetupWizard=false jenkins.war --httpPort=$PORT --ajp13Port=-1 --httpsPort=-1
