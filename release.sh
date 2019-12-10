@@ -1,4 +1,7 @@
-echo "!!!!!!!!!!!!!!!!!!!!! Starting release.sh"
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+echo "!!!!!!!!!!!!!!!!!!!!! Starting release.sh !!!!!!!!!!!!!!!!!!!!!"
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+echo "------------------"
 echo "PART 0"
 ls -la .
 echo "PART I"
@@ -15,4 +18,5 @@ cp -rf ./eyspecial/jobs/. .jenkins/jobs/.
 echo "-->copying users..."
 cp -rf ./eyspecial/users/. .jenkins/users/.
 echo "for info disableSignup set to false in global config.xml in order to unable public access"
-echo "!!!!!!!!!!!!!!!!!!!!! Finished release.sh"
+echo "------------------"
+echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"

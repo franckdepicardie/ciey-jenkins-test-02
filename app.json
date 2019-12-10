@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "postdeploy": "./release.sh"
+    "postdeploy": "echo HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH;chmod 755 release.sh;./release.sh"
   }
 }
