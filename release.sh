@@ -3,6 +3,7 @@ echo "!!!!!!!!!!!!!!!!!!!!! Starting release.sh !!!!!!!!!!!!!!!!!!!!!"
 echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 echo "------------------"
 echo "PART 0"
+cd /app/
 ls -la .
 echo "PART I"
 jar -xvf jenkins.war
